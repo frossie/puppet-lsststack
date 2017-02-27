@@ -1,0 +1,11 @@
+HOSTS:
+  ubuntu-16.04:
+    roles:
+      - master
+    platform: ubuntu-16.04-amd64
+    box: bento/ubuntu-16.04
+    hypervisor: vagrant
+    vagrant_cpus: 4
+    vagrant_memsize: 3072
+CONFIG:
+  type: foss
